@@ -77,14 +77,14 @@ a {
 .section_header_task_team .content .buttoms .buttom2 {
     padding: 0 0 0 5rem;
     padding: 12px 40px;
-    background-color: #008006;
+    background-color: lightseagreen;
     color: #ffffff;
     font-size: 1.5rem;
     border-radius: 25px;
 }
 
 .section_header_task_team .content .buttoms .buttom2:hover {
-    background-color: #008000;
+    background-color: green;
     transition: .9s;
 }
 
@@ -263,13 +263,55 @@ a {
 .section_end_page .content .buttoms .buttom2 {
     padding: 0 0 0 5rem;
     padding: 12px 40px;
-    background-color: #008006;
+    background-color: lightseagreen;
     color: #ffffff;
     font-size: 1.5rem;
     border-radius: 25px;
 }
 
 .section_end_page .content .buttoms .buttom2:hover {
-    background-color: darkgreen;
+    background-color: green;
     transition: .9s;
+}
+
+/*  footer  */
+
+.footer .content {
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .content .logo {
+    margin: 1rem 3rem;
+    display: inline-block;
+}
+
+.footer .content .nav-bar ul li {
+    list-style: none;
+    margin: 0 4rem;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.footer .content .nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .content .nav-bar ul li a:hover {
+    color: lightseagreen;
+    transition: 0.4s;
+}
+
+.footer .content .icons {
+    display: flex;
+}
+
+.footer .content .icons .facebook {
+    margin: 0 1.5rem;
+}
+.footer .content .icons .instagram {
+    margin: 0 1.5rem;
 }
