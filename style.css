@@ -56,12 +56,13 @@ a {
     border-radius: 25px;
     margin-right: 2rem;
     display: inline-block;
+  
 
 }
 .section_header_task_team .content .buttoms .buttom1:hover{
-    box-shadow: 2px 2px 12px #999;
+    box-shadow: 1px 1px 4px #999;
     background-color: lightblue;
-    transition: 0.3s;
+    transition: .9s;
 }
 .section_header_task_team .content .buttoms .buttom2{
     padding: 0 0 0 5rem;
@@ -72,7 +73,22 @@ a {
     border-radius: 25px;
 }
 .section_header_task_team .content .buttoms .buttom2:hover{
-    box-shadow: 2px 2px 12px #999;
+    box-shadow: 1px 1px 4px #999;
     background-color: lightgreen;
-    transition: 0.3s;
+    transition: .9s;
+}
+/* section task team two*/
+.section_task_team_two .content .title{
+    text-align: center;
+    padding-top: 16rem;
+    font-size: 2.5rem;
+}
+.section_task_team_two .content .text{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 4rem;
 }
