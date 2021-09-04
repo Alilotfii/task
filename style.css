@@ -220,3 +220,57 @@ a {
     font-size: 1.5rem;
     line-height: 3rem;
 }
+
+/*  section end page */
+
+.section_end_page .content .title {
+    text-align: center;
+    font-size: 3rem;
+    color: #666;
+    margin-top: 8rem;
+}
+
+.section_end_page .content .text {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 4rem;
+}
+
+.section_end_page .content .buttoms {
+    text-align: center;
+    margin-top: 3rem 0;
+    padding-top: 3rem;
+}
+
+.section_end_page .content .buttoms .buttom1 {
+    padding: 12px 40px;
+    background-color: #9686FF;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.section_end_page .content .buttoms .buttom1:hover {
+    background-color: #9686d9;
+    transition: 0.4s;
+}
+
+.section_end_page .content .buttoms .buttom2 {
+    padding: 0 0 0 5rem;
+    padding: 12px 40px;
+    background-color: #008006;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+
+.section_end_page .content .buttoms .buttom2:hover {
+    background-color: darkgreen;
+    transition: .9s;
+}
