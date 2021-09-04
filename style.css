@@ -195,3 +195,28 @@ a {
     font-size: 1.5rem;
     line-height: 3rem;
 }
+
+/* section_big_company */
+
+.section_big_company .content .boxes .box {
+    width: calc(25% - 20px);
+    margin: 20px 10px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.section_big_company .content .boxes .box .image {
+    margin-bottom: 1.5rem;
+}
+
+.section_big_company .content .boxes .box .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section_big_company.content .boxes .box .text {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
