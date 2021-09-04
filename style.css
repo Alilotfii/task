@@ -48,7 +48,6 @@ a {
 }
 
 .section_header_task_team .content .buttoms .buttom1 {
-   
     padding: 12px 40px;
     background-color: #9686FF;
     color: #ffffff;
@@ -56,15 +55,15 @@ a {
     border-radius: 25px;
     margin-right: 2rem;
     display: inline-block;
-  
-
 }
-.section_header_task_team .content .buttoms .buttom1:hover{
+
+.section_header_task_team .content .buttoms .buttom1:hover {
     box-shadow: 1px 1px 4px #999;
     background-color: lightblue;
     transition: .9s;
 }
-.section_header_task_team .content .buttoms .buttom2{
+
+.section_header_task_team .content .buttoms .buttom2 {
     padding: 0 0 0 5rem;
     padding: 12px 40px;
     background-color: green;
@@ -72,18 +71,22 @@ a {
     font-size: 1.5rem;
     border-radius: 25px;
 }
-.section_header_task_team .content .buttoms .buttom2:hover{
+
+.section_header_task_team .content .buttoms .buttom2:hover {
     box-shadow: 1px 1px 4px #999;
     background-color: lightgreen;
     transition: .9s;
 }
+
 /* section task team two*/
-.section_task_team_two .content .title{
+
+.section_task_team_two .content .title {
     text-align: center;
     padding-top: 16rem;
     font-size: 2.5rem;
 }
-.section_task_team_two .content .text{
+
+.section_task_team_two .content .text {
     text-align: center;
     padding-top: 2rem;
     font-size: 2rem;
@@ -91,4 +94,30 @@ a {
     width: 45%;
     margin: 0 auto;
     line-height: 4rem;
+}
+
+/* section Specifications imac */
+
+.section_Specifications_imac .content .image{
+    padding-top: 5rem;
+display: inline-block;
+}
+.section_Specifications_imac .content .boxes{
+    display: inline-block;
+    margin-right: 16rem;
+    margin-top: 8.5rem;
+}
+.section_Specifications_imac .content .boxes{
+    float: right;
+}
+.section_Specifications_imac .content .boxes .box .title{
+font-size: 2.5rem;
+
+}
+.section_Specifications_imac .content .boxes .box .text{
+    font-size: 1.5rem;
+    width: 60%;
+    line-height: 3rem;
+    margin-bottom: 6rem;
+    color: #999;
 }
