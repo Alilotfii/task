@@ -27,20 +27,21 @@ a {
     padding-top: 10rem;
     background: url('images/bg-header-desktop.png') no-repeat center center/cover;
 }
-.section_header_task_team .content{
+
+.section_header_task_team .content {
     text-align: center;
- }
- .section_header_task_team .content .logo img{
-     max-width: 10rem;
-     margin-bottom: 5rem;
- }
+}
+
+.section_header_task_team .content .logo img {
+    max-width: 10rem;
+    margin-bottom: 5rem;
+}
 
 .section_header_task_team .content .title {
     text-align: center;
     font-size: 3rem;
     color: #666;
 }
-
 
 .section_header_task_team .content .text {
     text-align: center;
@@ -69,21 +70,21 @@ a {
 }
 
 .section_header_task_team .content .buttoms .buttom1:hover {
-    background-color: lightblue;
-    transition: .9s;
+    background-color: #9686d9;
+    transition: 0.4s;
 }
 
 .section_header_task_team .content .buttoms .buttom2 {
     padding: 0 0 0 5rem;
     padding: 12px 40px;
-    background-color: green;
+    background-color: #008006;
     color: #ffffff;
     font-size: 1.5rem;
     border-radius: 25px;
 }
 
 .section_header_task_team .content .buttoms .buttom2:hover {
-    background-color: lightgreen;
+    background-color: #008000;
     transition: .9s;
 }
 
@@ -156,26 +157,41 @@ a {
     text-align: center;
     margin-top: 10rem;
 }
+
 /*  section Advertising  */
-.section_Advertising .content .title{
+
+.section_Advertising .content .title {
     text-align: center;
     font-size: 3.7rem;
 }
-.section_Advertising .content .text{
+
+.section_Advertising .content .text {
     text-align: center;
     color: #888;
     font-size: 2rem;
     margin-top: 2rem;
 }
+
 /* section_Advertising_colc3 */
-.section_Advertising_colc3 .content .boxes .box{
-   
-}
-.section_Advertising_colc3 .content .boxes .box .image{
 
+.section_Advertising_colc3 .content .boxes .box {
+    width: calc(30% - 112px);
+    margin: 45px 80px;
+    float: left;
+    text-align: center;
+    padding: 20px;
 }
-.section_Advertising_colc3 .content .boxes .box .title{
 
+.section_Advertising_colc3 .content .boxes .box .image {
+    margin-bottom: 1.5rem;
 }
-.section_Advertising_colc3 .content .boxes .box .text{
+
+.section_Advertising_colc3 .content .boxes .box .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section_Advertising_colc3 .content .boxes .box .text {
+    font-size: 1.5rem;
+    line-height: 3rem;
 }
