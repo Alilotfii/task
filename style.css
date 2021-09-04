@@ -147,3 +147,14 @@ a {
     text-align: center;
     margin-top: 10rem;
 }
+/*  section Advertising  */
+.section_Advertising .content .title{
+    text-align: center;
+    font-size: 3.7rem;
+}
+.section_Advertising .content .text{
+    text-align: center;
+    color: #888;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
