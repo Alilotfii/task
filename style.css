@@ -21,15 +21,26 @@ a {
 
 /*  section header task team */
 
-.section_header_task_team .image img {
+.section_header_task_team {
     width: 100%;
+    height: 40rem;
+    padding-top: 10rem;
+    background: url('images/bg-header-desktop.png') no-repeat center center/cover;
 }
+.section_header_task_team .content{
+    text-align: center;
+ }
+ .section_header_task_team .content .logo img{
+     max-width: 10rem;
+     margin-bottom: 5rem;
+ }
 
 .section_header_task_team .content .title {
     text-align: center;
     font-size: 3rem;
     color: #666;
 }
+
 
 .section_header_task_team .content .text {
     text-align: center;
@@ -58,7 +69,6 @@ a {
 }
 
 .section_header_task_team .content .buttoms .buttom1:hover {
-    box-shadow: 1px 1px 4px #999;
     background-color: lightblue;
     transition: .9s;
 }
@@ -73,7 +83,6 @@ a {
 }
 
 .section_header_task_team .content .buttoms .buttom2:hover {
-    box-shadow: 1px 1px 4px #999;
     background-color: lightgreen;
     transition: .9s;
 }
@@ -157,4 +166,16 @@ a {
     color: #888;
     font-size: 2rem;
     margin-top: 2rem;
+}
+/* section_Advertising_colc3 */
+.section_Advertising_colc3 .content .boxes .box{
+   
+}
+.section_Advertising_colc3 .content .boxes .box .image{
+
+}
+.section_Advertising_colc3 .content .boxes .box .title{
+
+}
+.section_Advertising_colc3 .content .boxes .box .text{
 }
