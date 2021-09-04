@@ -242,8 +242,7 @@ a {
 
 .section_end_page .content .buttoms {
     text-align: center;
-    margin-top: 3rem 0;
-    padding-top: 3rem;
+    margin: 3rem 0 6rem 0;
 }
 
 .section_end_page .content .buttoms .buttom1 {
