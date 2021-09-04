@@ -98,26 +98,52 @@ a {
 
 /* section Specifications imac */
 
-.section_Specifications_imac .content .image{
+.section_Specifications_imac .content .image {
     padding-top: 5rem;
-display: inline-block;
+    display: inline-block;
 }
-.section_Specifications_imac .content .boxes{
+
+.section_Specifications_imac .content .boxes {
     display: inline-block;
     margin-right: 16rem;
     margin-top: 8.5rem;
 }
-.section_Specifications_imac .content .boxes{
+
+.section_Specifications_imac .content .boxes {
     float: right;
 }
-.section_Specifications_imac .content .boxes .box .title{
-font-size: 2.5rem;
 
+.section_Specifications_imac .content .boxes .box .title {
+    font-size: 2.5rem;
 }
-.section_Specifications_imac .content .boxes .box .text{
+
+.section_Specifications_imac .content .boxes .box .text {
     font-size: 1.5rem;
     width: 60%;
     line-height: 3rem;
     margin-bottom: 6rem;
     color: #999;
+}
+
+/* section task team three */
+
+.section_task_team_three .content .title {
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.section_task_team_three .content .text {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 4rem;
+}
+
+.section_task_team_three .image {
+    text-align: center;
+    margin-top: 10rem;
 }
