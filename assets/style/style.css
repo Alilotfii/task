@@ -279,13 +279,17 @@ a {
 .footer .content {
     background-color: #e1e1e1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .footer .content .logo {
     margin: 1rem 3rem;
     display: inline-block;
+}
+
+.footer .content .logo img {
+    width: 60%;
 }
 
 .footer .content .nav-bar ul li {
@@ -312,6 +316,7 @@ a {
 .footer .content .icons .facebook {
     margin: 0 1.5rem;
 }
+
 .footer .content .icons .instagram {
     margin: 0 1.5rem;
 }
